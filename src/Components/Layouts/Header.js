@@ -35,7 +35,24 @@ const Header = () => {
         <FiLogOut className="text-xl" />
       </Link>
     </header>
+ {/* Footer Section */}
+      <footer style={footerStyle}>
+        &copy; 2024 Your Company Name. All Rights Reserved.
+      </footer>
+    </>
   );
 };
 
+// Inline CSS for the footer
+const footerStyle = {
+  textAlign: "center",
+  padding: "20px",
+  backgroundColor: "#333",
+  color: "#fff",
+  position: "fixed",
+  width: "100%",
+  bottom: "0",
+};
+
 export default Header;
+  
